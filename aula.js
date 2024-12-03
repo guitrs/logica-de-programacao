@@ -2,7 +2,7 @@
 // 2. A catraca vai verificar SE trm saldo no bilhete
 // 3. SENÃO tiver saldo no bilhete, mostrar uma mensagem de "saldo insuficiente"
 
-let bilhete = 10;
+let bilhete = 1;
 
 //SEW o bilhete tiver pelo menos (ou seja, se o valr do bilhete for maior ou igual a) 4 reais,
 // execute a código abaixo
@@ -16,5 +16,6 @@ if (bilhete >=4){
 
 
 } else {
+    //Mostrar a mensagem de Saldo insuficiente
     console.log ("Saldo insuficiente");
 }
